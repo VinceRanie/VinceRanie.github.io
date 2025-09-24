@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  padding: 2rem;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.projects, .workflow, .contact {
+  padding: 2rem;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.project a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.qr {
+  width: 100px;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.workflow ul {
+  list-style: none;        /* removes the default bullets */
+  padding: 0;              /* removes left padding */
+  margin: 1rem auto;       /* centers the list */
+  display: inline-block;   /* makes the list centered under text */
+  text-align: left;        /* keeps items aligned nicely */
+}
+
+.workflow li {
+  background: #f0f4ff;     /* subtle background to make it pop */
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
