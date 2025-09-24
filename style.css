@@ -77,3 +77,25 @@ footer {
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }
+.skills {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;       /* allows multiple rows */
+  justify-content: center;
+  gap: 1rem;             /* spacing between skills */
+  margin-top: 1.5rem;
+}
+
+.skill {
+  background: #1e293b;   /* dark card */
+  border: 1px solid #38bdf8;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  flex: 0 1 auto;        /* flexible width */
+  color: #fff; 
+}
